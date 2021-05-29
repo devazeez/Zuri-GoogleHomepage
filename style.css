@@ -1,0 +1,207 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 10px;
+        font-size: 3rem;
+         position: relative;
+        right: 25px;
+    }
+    nav a{
+        font-size: 1rem;
+        text-decoration: none;
+        
+    }
+    nav div{
+        background-color: purple;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 20px;
+        color: white;
+        margin-left: 20px;
+
+    }
+    .searchbtn{
+        position: relative;
+        right: 635px;
+        top: 8px;
+        height: 20px;
+    }
+    a {
+        color: black;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 8px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: rgb(184, 90, 90);
+    }
+    
+    .logo {
+        height: auto;
+        max-width: 100%;
+    }
+    
+    .icon {
+        width: 1%;
+        max-height: 100%;
+    }
+    
+    .icon2 {
+        width: 6%;
+        max-height: 100%;
+    }
+    
+    main {
+        text-align: center;
+        height: 100%;
+    }
+    
+    .glogo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    input {
+        width: 40%;
+        padding: 10px;
+        border-radius: 22px;
+        border: 1px solid rgb(199, 189, 189);
+        position: relative;
+        outline: none;
+    }
+    
+    .bbox {
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    button {
+        border: none;
+        padding: 10px;
+        border-radius: 2px;
+        margin: 4px;
+        color: black;
+        
+    }
+    
+    button:hover {
+        color: black;
+        cursor: pointer;
+        border: 1px solid rgb(199, 189, 189);
+    }
+    
+    .lang {
+        padding-top: 20px;
+        font-size: 12px;
+    }
+    
+    .langlinks {
+        color: rgb(40, 40, 180);
+        font-size: 12px;
+    }
+    
+    footer {
+        background-color: #f2f2f2;
+    }
+    
+    .foot {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 110px;
+    }
+     .foot a{
+         font-size: 15px;
+     }
+    
+    .footertop {
+        font-size: 10px;
+        padding: 10px;
+    }
+    .footertop p{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    
+    .footerbottom {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid rgb(185, 184, 184);
+    }
+    
+    .left {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .right {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+    }
+    .center img{
+        width: 18px      
+    }
+       .center a{
+              font-size: 15px;
+            text-decoration: none; 
+            color: rgb(185, 184, 184);
+       
+        
+       }
+       .center a:hover{
+           color: purple;
+           text-decoration: underline; 
+           color: rgb(207, 204, 204);
+       }
+    
+    @media screen and (max-width: 768px) {
+        input {
+            width: auto;
+            padding: 10px;
+            border-radius: 22px;
+            border: 1px solid rgb(226, 214, 214);
+            position: relative;
+            outline: none;
+        }
+        .center {
+            display: flex;
+            position: relative;
+            align-items: center;
+        }
+        .left {
+            display: flex;
+            align-content: flex-start;
+        }
+        .right {
+            display: flex;
+            align-content: flex-end;
+        }
+        .foot {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: auto;
+        }
+    }
